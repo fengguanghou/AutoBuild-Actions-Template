@@ -4,7 +4,7 @@
 
 Firmware_Diy_Core() {
 
-	Author=AUTO
+	Author=Fenggguang.Hou
 	# 作者名称, AUTO: [自动识别]
 	Author_URL=AUTO
 	# 自定义作者网站或域名, AUTO: [自动识别]
@@ -12,7 +12,7 @@ Firmware_Diy_Core() {
 	# 固件标签 (名称后缀), 适用不同配置文件, AUTO: [自动识别]
 	Default_IP="192.168.1.1"
 	# 固件 IP 地址
-	Default_Title="Powered by AutoBuild-Actions"
+	Default_Title="Powered by Fenggguang.Hou"
 	# 固件终端首页显示的额外信息
 	
 	Short_Fw_Date=true
