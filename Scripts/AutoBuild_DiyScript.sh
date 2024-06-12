@@ -33,12 +33,7 @@ Firmware_Diy_Core() {
 Firmware_Diy() {
 
 	# 请在该函数内定制固件
-# => 阿里ddns
-git clone https://github.com/chenhw2/luci-app-aliddns.git package/luci-app-aliddns
 
-# => passwall2
-git clone https://github.com/xiaorouji/openwrt-passwall-packages.git -b main package/passwall_package
-git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 
 	# 可用预设变量, 其他可用变量请参考运行日志
 	# ${OP_AUTHOR}			OpenWrt 源码作者
