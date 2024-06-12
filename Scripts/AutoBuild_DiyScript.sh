@@ -33,7 +33,8 @@ Firmware_Diy_Core() {
 Firmware_Diy() {
 
 	# 请在该函数内定制固件
-
+        git clone https://github.com/kenzok8/small-package smpackage
+        sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
 
 	# 可用预设变量, 其他可用变量请参考运行日志
 	# ${OP_AUTHOR}			OpenWrt 源码作者
